@@ -12,5 +12,8 @@
 */
 
 Route::get('/', 'IndexController@index');
+Route::get('/user' , function (){
+    return 'user';
+});
 
 
